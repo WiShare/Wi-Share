@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#9eeadc"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="220dp"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="Full Name:"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etFName"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-30dp"
+            android:singleLine="true"
+
+            android:textAlignment="center"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="Nickname:"
+            android:id="@+id/textView2"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNickname"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-30dp"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course:"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCandS"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-30dp"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:inputType="textCapWords" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="168dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

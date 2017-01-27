@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wi-Share</string>
+    <string name="SplashScreen">SplashScreen</string>
+   <string name="TextOrFile">TextOrFile</string>
+</resources>
